@@ -4,8 +4,8 @@ var onRequest = function(req, res) {
 	  if (req.method == 'POST') {
        var postData = '';
        req.on('data', function(chunk) {
-           postData += chunk.toString();
-        });    
+           postData += chunk.toString()
+        })    
         req.on('end', function() {
             console.log("Got POST data:");
 //            console.log(JSON.parse(postData));
