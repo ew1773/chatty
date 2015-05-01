@@ -1,4 +1,4 @@
-var messages = ["this sucks", "just a little"]
+var messages = ["this sucks", "just a little"];
 
 var onRequest = function(req, res) {
 	  if (req.method == 'POST') {
